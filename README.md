@@ -7,6 +7,25 @@ README :2025-01-13
 ### Project Title
 BikeShare Data Analysis Project
 
+### Installation Instructions
+To run this project, you will need to have Python installed on your machine along with the following libraries:
+
+- pandas
+- matplotlib
+
+You can install the required libraries using pip:
+
+```bash
+pip install pandas matplotlib
+```
+
+### Known Bugs
+- The analysis may not account for all edge cases in the dataset, such as missing values or incorrect data entries.
+- The visualization may not display correctly on all screen sizes. Users are encouraged to adjust the plot settings as needed.
+
+If you encounter any other issues, please feel free to open an issue on the repository.
+
+
 ### Description
 This project aims to analyze data from a BikeShare system to provide insights into user usage patterns, rental trends, and peak times. Through in-depth analysis of the data, we hope to identify user behavior patterns to support future decision-making.
 
