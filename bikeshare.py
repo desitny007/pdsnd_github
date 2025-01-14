@@ -2,6 +2,11 @@ import time
 import pandas as pd
 import numpy as np
 
+# Constants for valid cities, months, and days
+VALID_CITIES = ['chicago', 'new york city', 'washington']
+VALID_MONTHS = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
+VALID_DAYS = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+
 # Dictionary mapping city names to their corresponding CSV file names
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
